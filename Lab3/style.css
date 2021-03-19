@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+/* Header */
+
+.header{
+    background-color: whitesmoke;
+    padding-bottom: 1%;
+}
+
+/* Left Section */
+.left-header-section{
+    margin: 0;
+    width: 20%;
+    float: left;
+}
+
+.horizontal-header-list-left{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.horizontal-header-list-left > li{
+    float: left;
+    margin:1%;
+}
+
+.left-header-section > p{
+    font-size: 15px;   
+}
+
+/* Center Section */
+.center-header-section{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+.horizontal-header-list-center{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+.horizontal-header-list-center > li{
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 2%;
+}
+
+/* Right Section */
+.right-header-section{
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.right-header-section > p {
+    display: inline-block;
+}
+
+.horizontal-header-list-right{
+    list-style-type: none;
+    margin: 0;
+    margin-top: 5%;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 2%;
+    text-align: right;
+}
+
+.horizontal-header-list-right > li{
+    display: inline-block;
+    margin-right: 2%;
+    background-color: #567b95;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.horizontal-header-list-right > li > a{
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#navigation-menu-list{
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navigation-menu-list > li{
+    float: left;
+    margin: 5px;
+}
+
+#navigation-menu-list >li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.last-section-news{
+    margin: 0;
+    width: 33.33%;
+    float: left;
+}
+
+.last-section-news > p{
+    margin-left: 5%;
+}
+
+#center-last-section-news{
+    margin: 0;
+    width: 33.3%;
+    float: left;
+    border-left: 0.3px solid black;
+    border-right: 0.3px solid black;
+}
+
+#center-last-section-news > p{
+    margin-left: 5px;
+}
+
+/* Main */
+
+main{
+    background-color: whitesmoke;
+    padding-bottom: 2%;
+}
+
+
+.head-text-article{
+    float: left;
+    margin: 0;
+    width:25%;
+    background-color: whitesmoke;
+}
+
+.head-text-article > ul{
+    text-align: left;
+}
+
+.head-text-article-right{
+    float: left;
+    margin: 0;
+    width:27%;
+    background-color: whitesmoke;
+    
+}
+
+.head-text-article-right > p{
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 3%;
+}
+
+.head-text-article-right > h3{
+    margin-left: 3%;
+}
+
+#biden-image{
+    background-color: whitesmoke;
+    float: left;
+    margin: 0;
+    text-align: right;
+    width: 48%;
+    padding-bottom: 2.5%;
+    border-right: 1px solid black;
+}
+
+#biden-face{
+    float:left;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.linear-headlines{
+    width: 25%;
+    float:left;
+    margin:0;
+    border-right: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.linear-headlines > h4{
+    margin-left: 4%;
+}
+
+#linear-headlines-right{
+    width: 25%;
+    float:left;
+    margin:0;
+    background-color: whitesmoke;
+}
+
+#linear-headlines-right > h4{
+    margin-left: 4%;
+}
+
+#left-main-section{
+    margin-top: 1%;
+    float:left;
+    width:70%;
+    background-color:whitesmoke;
+    height:50%;
+}
+
+#right-main-section{
+    margin-top: 1%;
+    float: left;
+    width:30%;
+    height: 50%;
+    background-color: whitesmoke;
+    padding-top: 1%;
+    border-top: 1px solid black;
+    border-left: 0.5px solid black;
+}
+
+#right-main-section > *{
+    margin-left: 1%;
+}
+
+.left-article{
+    float:left;
+    width:25%;
+    padding-top:1%;
+    border-top: 1px solid black;
+}
+
+#article-image{
+    float:left;
+    width:45%;
+    padding-top: 1%;
+    border-top: 1px solid black;
+    padding-bottom: 2%;
+}
+
+.second-left-article{
+    float:left;
+    width: 30%;
+    padding-top:1%;
+}
+
+#right-article-headline{
+    float: left;
+    width: 50%;
+    padding-top: 2%;
+}
+
+#right-article-headline > p{
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.opinion-headline{
+    opacity:0.5; 
+    font-size: 20px;
+}
+
+#opinion-left{
+    float:left;
+    width: 40%;
+}
+
+#opinion-right{
+    float:left;
+    width: 50%;
+    padding-top: 6%;
+}
