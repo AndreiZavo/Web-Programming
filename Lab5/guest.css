@@ -1,0 +1,15 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 99%;
+	height: 100%;
+	font-family: 'Courier New', Courier, monospace;
+	background-image: linear-gradient(130deg, rgb(66, 66, 66), rgb(214, 124, 63));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

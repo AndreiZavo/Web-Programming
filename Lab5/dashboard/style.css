@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 99%;
+	height: 100%;
+	font-family: 'Courier New', Courier, monospace;
+	background-image: linear-gradient(130deg, rgb(66, 66, 66), rgb(214, 124, 63));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header{
+  width: 80vw;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: rgba(7, 7, 7, 0.4);
+  padding: 20px 10px;
+  margin-top: 1%;
+}
+
+#home{
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#home:hover{
+    background-color: #7777;
+    color: whitesmoke;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#logoutBtn{
+    float: right;
+    color: teal;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logout:hover{
+	border-color: #7777;
+	transition: .2s;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+table {
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 60%;
+    background-color: white;
+  }
+  
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+table tr:nth-child(even){background-color: #f2f2f2;}
+  
+table tr:hover {background-color: #ddd;}
+  
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #864b07;
+    color: white;
+  }
+

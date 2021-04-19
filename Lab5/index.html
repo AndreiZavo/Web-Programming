@@ -4,38 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Lab5 </title>
-    <!-- JQuery Library -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"> </script>
-    <!-- Project JQuery files -->
-    <script src="script.js"></script>
-    
+    <title>Daily Boost</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav> 
-        <div class="container">
-            <ul>
-                <li><a class="nav-link" href="#"> 🐫 Home </a></li>
-                <li> 
-                    <a class="nav-link" href="#">Models ⬇ </a>
-                    <ul>
-                        <li><a href="#"> Q7 </a></li>
-                        <li><a href="#"> R2 </a></li>
-                        <li><a href="#"> A4 </a></li>
-                    </ul>
-                </li>
-                <li> 
-                    <a class="nav-link" href="#">Colors ⬇ </a>
-                    <ul>
-                        <li><a href="#"> Red </a></li>
-                        <li><a href="#"> Blue </a></li>
-                        <li><a href="#"> Orange </a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </nav>
-        
-
+    <div class="container">
+        <h1> Login </h1>
+        <form action="dashboard/dashboard.php" method="POST" >
+            <div class="text_field">
+                <input type="text" name="username" required>
+                <span></span>
+                <label> Username </label>
+            </div>
+            <div class="text_field">
+                <input type="password" name="password" required>
+                <span></span>
+                <label> Password </label>
+            </div>
+            <input type="submit" name="submit" value="Login">
+            <div class="sign_as_guest">
+                Not a member? <a href="guestPage.php"> Login as Guest </a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
+
+
